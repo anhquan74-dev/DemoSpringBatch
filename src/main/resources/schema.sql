@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS facebook_ads;
+
+CREATE TABLE facebook_ads (
+	id BIGINT auto_increment NOT NULL PRIMARY KEY,
+	Date DATE NOT NULL,
+	Media VARCHAR(255) NOT NULL,
+	AdnameLPID VARCHAR(255) NOT NULL,
+	Cost DOUBLE NOT NULL,
+	Impression INT NOT NULL,
+	Click INT NOT NULL,
+	CV INT NOT NULL
+)
